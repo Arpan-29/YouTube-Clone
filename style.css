@@ -1,0 +1,199 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+/*img.before{
+	background-image: none;
+	background-color: rgb(220, 220, 220);
+}*/
+.header{
+	display: flex;
+	height: 30px;
+	margin: 10px;
+	align-items: center;
+	justify-content: space-between;
+}
+.menu{
+	vertical-align: top;
+	margin: 2px 15px;
+	border: none;
+	background-color: white;
+	cursor: pointer;
+}
+.menu-image{
+	height: 28px;
+}
+.logo-image{
+	height: 30px;
+	border: none;
+	color: white;
+}
+.search-bar{
+	display: flex;
+	align-items: stretch;
+}
+.search-input{
+	width: 500px;
+	height: 30px;
+	padding-left: 10px;
+	font-size: 16px;
+	font-weight: 900;
+	border-color: rgb(230, 230, 230);
+	background-color: rgb(240, 240, 240);
+}
+.search-button{
+	margin: 0px;
+	padding: 0px;
+	width: 50px;
+	border-width: 1px;
+	cursor: pointer;
+	border-left-width: 1px;
+	background-color: rgb(230, 230, 230);
+	border-color: rgb(230, 230, 230);
+}
+.mic{
+	margin-left: 10px;
+	width: 34px;
+	height: 34px;
+	border: none;
+	border-radius: 17px;
+	cursor: pointer;
+}
+.mic-image{
+	margin-left: 1px;
+	margin-top: 1px;
+}
+.other-options{
+	display: flex;
+	margin-right: 20px;
+}
+.apps, .notifications{
+	margin-right: 20px;
+	border: none;
+	background-color: white;
+	cursor: pointer;
+}
+.account{
+	border: none;
+	background-color: white;
+	cursor: pointer;
+}
+.account-image{
+	height: 34px;
+	border-radius: 17px;
+}
+.body{
+	display: flex;
+}
+.sidebar{
+	width: 5%;
+	float: left;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.home, .explore, .subscriptions, .library{
+	border: none;
+	background-color: white;
+	width: 78px;
+	padding: 15px 0px;
+	align-items: center;
+	cursor: pointer;
+	transition-duration: 0.5s;
+}
+.home:hover, .explore:hover, .subscriptions:hover, .library:hover{
+	background-color: lightgray;
+}
+.sidebar-image{
+	display: block;
+	height: 28px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.sidebar-text{
+	text-align: center;
+	font-size: 11px;
+	font-weight: 800;
+}
+.main-content{
+	width: 95%;
+	float: left;
+}
+.sub-header{
+	display: flex;
+	margin-right: 10px;
+	padding: 10px 20px;
+	border-top: 2px solid lightgray;
+	overflow: hidden;
+}
+.sub-header-buttons{
+	border: none;
+	background-color: lightgray;
+	margin: 0px 10px;
+	padding: 5px 10px;
+	height: 30px;
+	white-space: nowrap;
+	border-radius: 15px;
+	font-size: 14px;
+	font-weight: 900;
+	cursor: pointer;
+}
+.video-section{
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 2px;
+	padding-top: 20px; 
+	padding-bottom: 20px;
+	padding-left: 20px;
+	background-color: rgb(240, 240, 240);
+}
+.video-container{
+	display: flex;
+	flex-direction: column;
+	margin-right: 15px;
+	margin-top: 20px;
+}
+.thumbnail-container{
+	position: relative;
+	text-align: center;
+}
+.time{
+	position: absolute;
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+	padding: 2px;
+	font-size: 14px;
+	bottom: 5px;
+	right: 5px;
+}
+.video-metadata{
+	display: flex;
+}
+.creator-image{
+	margin: 10px 5px;
+	border-radius: 18px;
+}
+.video-details{
+	margin: 10px 10px;
+	display: flex;
+	flex-direction: column;
+}
+.title{
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 900;
+	color: black;
+	margin-bottom: 2px;
+}
+.other-video-details{
+	display: flex;
+}
+.creator-name, .views, .release{
+	margin: 2px;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 700;
+	color: black;
+}
